@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Advanced Order Manager">
+        <lightning-button label="Create Order" onclick={createOrder}></lightning-button>
+        <template for:each={products} for:item="prod">
+            <c-product-tile key={prod.Id} name={prod.Name} price={prod.Price__c}
+                onclick={handleSelect}></c-product-tile>
+        </template>
+    </lightning-card>
+</template>

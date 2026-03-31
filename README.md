@@ -1,2 +1,14 @@
-# Order-Management
-Developed a custom Salesforce app to manage purchase lists, quotes, and orders, streamlining the order management workflow.
+# Advanced Order Management System
+
+## Features
+- Product selection
+- Cart system
+- Order + Order Items creation
+- Apex trigger
+- LWC communication
+
+## Future Improvements
+- Pagination
+- Search filter
+- Toast messages
+- Authentication roles
